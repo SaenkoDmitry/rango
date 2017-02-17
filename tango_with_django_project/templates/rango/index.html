@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+{% load staticfiles %}
+
+<html>
+
+    <head>
+        <title>Rango</title>
+        <a href="/rango/">Home</a>
+        <a href="/rango/about/">About</a><br />
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link rel="stylesheet" href="{% static "css/base.css" %}" /> <!-- CSS -->
+        <script src="{% static "js/jquery.js" %}"></script> <!-- JavaScript -->
+    </head>
+
+    <body>
+        <h1>Rango says...</h1>
+        <blockquote>...Our democracy has been hacked</b>
+            <br>
+            slogan: {{ boldmessage }}<br /></blockquote>
+        <img class="image-wrap" src="{% static "images/rango.jpg" %}" alt="Picture of Rango" />
+    </body>
+
+</html>

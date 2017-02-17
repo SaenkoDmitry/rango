@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+{% load staticfiles %}
+
+<html>
+
+    <head>
+        <title>About</title>
+        <a href="/rango/">Home</a>
+        <a href="/rango/about/">About</a><br />
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link rel="stylesheet" href="{% static "css/base.css" %}" /> <!-- CSS -->
+        <script src="{% static "js/jquery.js" %}"></script> <!-- JavaScript -->
+    </head>
+
+
+    <body>
+        <h1>Page about actors</h1>
+        <p class="under-background">Rami Malek	... Elliot Alderson</p>
+        <img class="image-wrap" src="{% static "images/rango-1.jpg" %}" alt="Picture of Rami Malek" />
+        <br><br>
+
+        <p class="under-background">Portia Doubleday ... Angela Moss</p>
+        <img class="image-wrap" src="{% static "images/rango-2.jpg" %}" alt="Picture of Portia Doubleday" />
+        <br><br>
+
+        <p class="under-background">Martin Wallström ... Tyrell Wellick</p>
+        <img class="image-wrap" src="{% static "images/rango-3.jpg" %}" alt="Picture of Martin Wallström" />
+        <br><br>
+
+        <p class="under-background">Carly Chaikin ... Darlene</p>
+        <img class="image-wrap" src="{% static "images/rango-4.jpg" %}" alt="Picture of Carly Chaikin" />
+        <br><br>
+
+        <p class="under-background">Christian Slater ... Mr. Robot</p>
+        <img class="image-wrap" src="{% static "images/rango-5.jpg" %}" alt="Picture of Christian Slater" />
+        <br><br>
+
+        <p class="under-background">Stephanie Corneliussen ... Joanna Wellick</p>
+        <img class="image-wrap" src="{% static "images/rango-6.jpg" %}" alt="Picture of Stephanie Corneliussen" />
+        <br><br>
+
+        <p class="under-background">Michael Cristofer ... Phillip Price</p>
+        <img class="image-wrap" src="{% static "images/rango-7.jpg" %}" alt="Picture of Michael Cristofer" />
+        <br><br>
+
+        <p class="under-background">Grace Gummer ... Dominique DiPierro</p>
+        <img class="image-wrap" src="{% static "images/rango-8.jpg" %}" alt="Picture of Grace Gummer" />
+        <br><br>
+
+    </body>
+
+</html>
