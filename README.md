@@ -1,4 +1,3 @@
 # rango
 
-you can try it on http://X.X.X.X:xxxx/
-/rango/ and /admin/
+you can try it on https://X.X.X.X:xxxx/rango/
